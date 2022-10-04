@@ -1,0 +1,15 @@
+p{
+    color :navy;
+    font-family : Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size : 1em; /*1em means 100% */
+    font-weight: bold;
+}
+a {
+    color:green;
+}
+#firstbullet,#redtext{
+    color:darkolivegreen;
+}
+h1{
+    color:maroon;
+}
