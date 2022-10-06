@@ -1,1 +1,9 @@
-body {font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1,p {
+    color: darkgreen;
+}
+.evenrow{
+    color:blueviolet
+}
