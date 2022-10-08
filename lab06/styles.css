@@ -1,9 +1,18 @@
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+p, ul, td, th {
+    color:indigo;
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1,p {
-    color: darkgreen;
+
+h1 {
+    color: darkseagreen;
+    font-size: 150%;
 }
-.evenrow{
-    color:blueviolet
+
+h2 {
+    color:mediumvioletred;
+    font-size: 100%;
+}
+
+.evenrow {
+    background-color: deeppink;
 }
