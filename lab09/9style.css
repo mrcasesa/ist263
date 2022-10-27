@@ -1,11 +1,10 @@
 .image{
-   width: 30px; 
-   padding: 10px;
+   width: 20px; 
+   padding: 50px;
 }
 
 .images{
-    display:flex
-    
+    display:flex;
 }
 aside{
     width: 30%;
@@ -18,4 +17,7 @@ aside{
 
 .flexbox2{
     display: flexbox;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
 }
