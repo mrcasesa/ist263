@@ -1,4 +1,7 @@
 .image{
-   width: 20px; 
-   display: flex;
+   width: 30px; 
+}
+
+div{
+    display:flex
 }
