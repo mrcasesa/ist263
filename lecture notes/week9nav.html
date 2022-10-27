@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+    <html lang=""en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+
+<style>
+    .nav1, .nav2, .nav3, .social, .parentrow {
+        display: flex;
+        background-color: #000000;
+        color:#ffff;
+    }
+
+    .nav1 {
+        justify-content: flex-end; /*all flex boxes on end of row */
+    }
+
+    .nav2 {
+        margin-top: 10px;
+        justify-content: space-around; /*justify content should be on the row  */
+        margin-bottom: 10px;
+    }
+
+    .parentrow{
+        justify-content: space-between;
+
+    }
+  
+    div {
+        padding: 10px;
+    }
+</style>
+
+</head>
+
+<body>
+
+    <div class="nav1">
+        <div>home</div>
+        <div>about us</div>
+        <div>products</div>
+        <div>contact</div>
+    </div>
+
+    <div class="nav2">
+        <div>home</div>
+        <div>about us</div>
+        <div>products</div>
+        <div>contact</div>
+    </div>
+
+    <div class="parentrow">
+        <div>
+            <div class="nav3">
+                <div>home</div>
+                <div>about us</div>
+                <div>products</div>
+                <div>contact</div>
+            </div>
+        </div>
+        <div>
+            <div class="social">
+                <div>facebook</div>
+                <div>twitter</div>
+            </div>
+        </div>
+    </div>
+
+ 
+
+  
+</body>
+
+</html>
