@@ -3,7 +3,14 @@
    padding: 10px;
 }
 
-div{
+.images{
     display:flex
     
+}
+aside{
+    width: 30%;
+    float: right;
+    background-color: rgb(58, 61, 221);
+    border-radius: 20px;
+    justify-content: right;
 }
