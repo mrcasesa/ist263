@@ -1,0 +1,26 @@
+.image{
+   width: 40px; 
+   padding: 50px;
+   justify-content: space-between;
+}
+
+.images{
+    display:flex;
+    
+}
+aside{
+    width: 30%;
+    float: right;
+    background-color: rgb(58, 61, 221);
+    color: aliceblue;
+    border-radius: 20px;
+    justify-content: right;
+}
+
+.flexbox2{
+    display: flexbox;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    justify-content: right;
+}
