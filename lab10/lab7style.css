@@ -65,3 +65,18 @@ h1,caption{
 .img{
     max-width: 100px;
 }
+
+.row2{
+    flex-wrap: wrap;
+}
+ @media only screen and (max-width: 667px) {
+    nav a {display:block; padding:5px;}
+    span {display:none;}
+ }
+
+ @media only screen and (max-width: 667px) {
+    .firstimage {
+        max-width: 100%;
+        display: block;
+    }
+ }
