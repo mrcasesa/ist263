@@ -80,3 +80,10 @@ h1,caption{
         display: block;
     }
  }
+ .image{
+    width: 40px; 
+    padding: 50px;
+    justify-content: space-between;
+ }
+ 
+
