@@ -1,28 +1,28 @@
 body {
-    background-color:#fefabf
+    background-color:#f8f6d4
 }
 p, link {
-    color: #e8ffe3;
+    color: #020700;
     background-color: #90C5B2;
 }
 h1,h2 {
-    color: #FC9BDB;
+    color: #0c0c0c;
 }
 a:visited {
-    color: #FC9BDB;
+    color: #000000;
 }
 
 nav a:hover{
     background-color: #f02ca1;
-    color:#FC9BDB;
+    color:#0a0107;
 }
 
 ul{
-    color: #88c9f7;
+    color: #0c0c0c;
 }
 
 nav a{
-    color:#e8ffe3;
+    color:#3005ef;
     background-color:#88c9f7 ;
 }
 
