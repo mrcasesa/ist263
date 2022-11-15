@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(249, 246, 236);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2,p {
+    color:rgb(189, 54, 54);
+    text-align: center;
+}
+a:link{
+    color:rgb(249, 246, 236);
+}
+
+a:visited{
+    color:rgb(241, 210, 169);
+}
+
+ .nav1 {
+    display: flex;
+    color:rgb(249, 246, 236);
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    background-color:rgb(189, 54, 54);
+}
+
+.pics{
+    display: flex;
+    padding: 15px;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
