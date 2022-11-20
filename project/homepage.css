@@ -39,26 +39,25 @@ p{
     color:rgb(249, 246, 236); 
   }
 
+ 
+  
+
   .row {
+    display: -ms-flexbox; /* IE 10 */
     display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
     flex-wrap: wrap;
     padding: 0 4px;
   }
   
-  /* Create four equal columns that sits next to each other */
+  /* Create two equal columns that sits next to each other */
   .column {
-    flex: 25%;
-    max-width: 25%;
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
     padding: 0 4px;
   }
   
   .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 100%;
-  }
-
-  img {
-    max-width: 50%;
-    height: auto;
   }
