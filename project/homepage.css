@@ -27,7 +27,8 @@ a:visited{
 .pics{
     display: flex;
     padding: 15px;
-    justify-content: center;
+    max-width: 100%;
+    height: auto;
     justify-content: space-evenly;
 }
 
@@ -41,23 +42,3 @@ p{
 
  
   
-
-  .row {
-    display: -ms-flexbox; /* IE 10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE 10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-  }
-  
-  /* Create two equal columns that sits next to each other */
-  .column {
-    -ms-flex: 50%; /* IE 10 */
-    flex: 50%;
-    padding: 0 4px;
-  }
-  
-  .column img {
-    margin-top: 8px;
-    vertical-align:middle;
-  }
