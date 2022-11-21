@@ -55,6 +55,6 @@ p{
   @media only screen and (max-width:600px){
     .column,.row { 
         width: 100%;
+        height: 100%;
     }
-    
   }
