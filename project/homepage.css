@@ -38,8 +38,6 @@ p{
   }
 
  
-  /* Three image containers (use 25% for four, and 50% for two, etc) */
-/* Three image containers (use 25% for four, and 50% for two, etc) */
 .row {
     display: flex;
     width: 40%;
@@ -47,11 +45,16 @@ p{
     margin: auto;
   }
   
-  /* Create three equal columns that sits next to each other */
   .column {
     flex: 50%;
     padding: 5px;
   }
+
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
    
    
   
