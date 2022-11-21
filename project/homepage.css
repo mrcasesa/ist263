@@ -42,11 +42,13 @@ p{
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .row {
     display: flex;
+    width: 100%;
   }
   
   /* Create three equal columns that sits next to each other */
   .column {
     flex: 33.33%;
+    
     padding: 5px;
   }
    
