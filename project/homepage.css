@@ -44,6 +44,7 @@ p{
     display: flex;
     width: 40%;
     height:auto;
+    margin: auto;
   }
   
   /* Create three equal columns that sits next to each other */
