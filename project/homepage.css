@@ -50,9 +50,11 @@ p{
     padding: 5px;
   }
 
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
+  
+
+  @media only screen and (max-width:600px){
+    .column,.row { 
+        width: 100%;
     }
+    
   }
