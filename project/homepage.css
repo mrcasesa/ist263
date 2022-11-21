@@ -40,24 +40,15 @@ p{
  
   /* Three image containers (use 25% for four, and 50% for two, etc) */
 /* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
+.row {
     display: flex;
-    float: left;
-    width: 20%;
-    padding: 15px;
-    
   }
   
-  .row{
-    margin-left: auto;
-    margin-right: auto;
-   
+  /* Create three equal columns that sits next to each other */
+  .column {
+    flex: 33.33%;
+    padding: 5px;
   }
-  /* Clear floats after image containers */
-  .row::after {
-    content: "";
-    clear: both;
-    display: table;
    
    
-  }
+  
