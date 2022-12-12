@@ -60,29 +60,25 @@ h2, p, body, footer{
     padding-left: 20px;
   }
   
- 
   .fakeimg {
     background-color: #aaa;
     width: 100%;
     padding: 20px;
   }
-  
  
-  .card {
+  .blog {
     background-color:rgb(189, 54, 54);
     padding: 20px;
     border-radius: 25px;
     margin-top: 30px;
   }
   
- 
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-
   .footer {
     padding: 20px;
     text-align: center;
@@ -90,11 +86,3 @@ h2, p, body, footer{
     margin-top: 20px;
   }
 
-  p, body{
-    font-family: 'Solway', serif;
-    font-weight: 300;
-    }
- h1, h2{
-    font-family: 'Solway', serif;
-    font-weight: 500;  
-    }
