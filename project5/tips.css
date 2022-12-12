@@ -1,7 +1,12 @@
-h2, p, body, footer{
+p, body, footer{
     font-family: 'Solway', serif;
     font-weight: 300;
     color:rgb(249, 246, 236);
+    }
+    h2{
+      color:rgb(249, 246, 236);
+      font-family: 'Solway', serif;
+      font-weight: 500; 
     }
  h1{
     font-family: 'Solway', serif;
@@ -61,8 +66,7 @@ h2, p, body, footer{
     padding-left: 20px;
   }
   
-  .fakeimg {
-
+  .img {
     width: 100%;
     padding: 20px;
   }
