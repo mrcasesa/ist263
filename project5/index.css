@@ -1,3 +1,12 @@
+p, body{
+  font-family: 'Solway', serif;
+  font-weight: 300;
+  }
+h1, h2{
+  font-family: 'Solway', serif;
+  font-weight: 500;  
+  }
+
 body{
     background-color: rgb(249, 246, 236);
 
@@ -17,7 +26,7 @@ a:visited{
  .nav1 {
     display: flex;
     color:rgb(249, 246, 236);
-    justify-content: space-between;
+    justify-content:space-around;
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 15px;
@@ -59,11 +68,4 @@ p{
     }
   }
 
-  p, body{
-    font-family: 'Solway', serif;
-    font-weight: 300;
-    }
- h1, h2{
-    font-family: 'Solway', serif;
-    font-weight: 500;  
-    }
+ 
