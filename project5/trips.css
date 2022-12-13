@@ -1,7 +1,7 @@
 p, body, footer{
     font-family: 'Solway', serif;
     font-weight: 300;
-    color:rgb(249, 246, 236);
+    color: rgb(249, 246, 236);
     }
   
 h2{
@@ -48,6 +48,7 @@ h2{
         margin-top: 20px;
         padding: 15px;
         background-color:rgb(189, 54, 54);
+        border-radius: 25px;
     }
     
     * {
@@ -73,9 +74,10 @@ h2{
  
   .blog {
     background-color:rgb(189, 54, 54);
-    padding: 20px;
+    padding: 8px;
     border-radius: 25px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-left:5px;
   }
   
   .row:after {

@@ -35,7 +35,8 @@ a:visited{
 
 .pics{
     display: flex;
-
+    border-radius: 8px;
+    size: 150px;
 }
 
 p{
@@ -64,7 +65,11 @@ p{
     .column,.row { 
         width: 100%;
         height: 100%;
+        flex-wrap: wrap;
     }
+    .nav1{
+          flex-direction: column;
+        }
   }
 
  
