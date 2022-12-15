@@ -20,18 +20,33 @@ a:link{
 }
 
 a:visited{
-    color:rgb(241, 210, 169);
+    color:rgb(190, 134, 134);
 }
 
- .nav1 {
-    display: flex;
-    color:rgb(249, 246, 236);
-    justify-content:space-around;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    padding: 15px;
-    background-color:rgb(189, 54, 54);
+.sidenav {
+  height: 100%; 
+  width: 160px; 
+  position: fixed; 
+  z-index: 0; 
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
 }
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(189, 54, 54);;
+  display: block;
+}
+
+
+.sidenav a:hover {
+  color: rgb(190, 134, 134);
+}
+
+
 
 .pics{
     display: flex;
@@ -60,6 +75,7 @@ p{
     padding: 5px;
   }
 
+  
 
   @media only screen and (max-width:600px){
     .column,.row { 
