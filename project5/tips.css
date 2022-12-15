@@ -28,6 +28,8 @@ p, body, footer{
           float:left;
           display: flex;
         }
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
     }
 
     body{

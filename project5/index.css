@@ -46,7 +46,11 @@ a:visited{
   color: rgb(190, 134, 134);
 }
 
-
+.main {
+  margin-left: 140px; 
+  font-size: 20px; 
+  padding: 0px 5px;
+}
 
 .pics{
     display: flex;
@@ -83,9 +87,9 @@ p{
         height: 100%;
         flex-wrap: wrap;
     }
-    .nav1{
-          flex-direction: column;
-        }
-  }
+  
+      .sidenav {padding-top: 15px;}
+      .sidenav a {font-size: 18px;}
+    
 
- 
+  }

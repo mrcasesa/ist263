@@ -26,6 +26,8 @@ h2{
             width: 100%;
             height: 100%;
         }
+        .sidenav {padding-top: 15px;}
+        .sidenav a {font-size: 18px;}
       }
     
       body{
